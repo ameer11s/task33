@@ -1,0 +1,345 @@
+.charset{
+    top: 50;
+    left: 50;
+
+}
+.charset .contentlp{
+    width: 150px ;
+    height: 40px;
+    background-color: rgb(244, 244, 244);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding-right: 4px;
+    font-size: 14px;
+}
+
+.charset .contentlp .lastest {
+    font-size: 14px;
+    width: 55px;
+    font-weight: bold;
+    padding:  8px;
+    margin: 5px 5px;
+    align-items: center;
+    text-align: center;
+    color: rgb(68, 73, 78);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.charset .contentlp .publer{
+    font-size: 14px;
+    width: 55px;
+    font-weight: bold;
+    padding:  8px;
+    align-items: center;
+    text-align: center;
+    color: rgba(101, 104, 106, 0.752);
+    border-radius: 20px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f5f9ff;
+    color: #4a4a4a;
+    line-height: 1.6;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  header .logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #3c6ff1;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+
+  nav ul li {
+    margin-right: 30px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-weight: 500;
+  }
+
+  .register-btn {
+    background: linear-gradient(90deg, #3c6ff1 0%, #00c9ff 100%);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .hero {
+    text-align: left;
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hero-text {
+    max-width: 600px;
+  }
+
+  .hero-text h1 {
+    font-size: 48px;
+    color: #3c6ff1;
+    font-weight: 600;
+  }
+
+  .hero-text p {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #737373;
+  }
+  .partner-section {
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  .btn-primary {
+    margin-top: 30px;
+    padding: 15px 30px;
+    background: linear-gradient(90deg, #3c6ff1 0%, #00c9ff 100%);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .btn-primary img {
+    margin-right: 10px;
+  }
+
+  .services {
+    padding: 60px 0;
+    text-align: center;
+  }
+  .services .defc {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .services h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    width: 400px;
+  }
+
+  .services-description {
+    margin-bottom: 40px;
+    color: #737373;
+    width: 500px;
+    text-align: start;
+  }
+
+  .service-cards {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .service-card {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: left;
+  }
+
+  .service-card img {
+    width: 50px;
+    margin-bottom: 20px;
+  }
+
+  .service-card h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333;
+  }
+
+  .service-card p {
+    color: #737373;
+    margin-bottom: 20px;
+  }
+
+  .btn-reservasi {
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #3c6ff1 0%, #00c9ff 100%);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+  }
+
+  .btn-reservasi img {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    display: flex;
+    margin-right: 70px;
+  }
+
+  .additional-section {
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .additional-section .left {
+    flex: 1;
+    padding-right: 20px;
+  }
+
+  .additional-section .left img {
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  .additional-section .right {
+    flex: 1;
+    padding-left: 20px;
+    text-align: left;
+  }
+
+  .additional-section .right h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .additional-section .right p {
+    margin-bottom: 30px;
+    color: #737373;
+    font-size: 18px;
+  }
+
+  .additional-section .btn-secondary {
+    padding: 15px 30px;
+    background: linear-gradient(90deg, #3c6ff1 0%, #00c9ff 100%);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .circle-sectioncontainer {
+    width: 80%;
+    margin-left: 301px;
+  }
+
+  .foryim {
+    width: 80%;
+  }
+
+  .circle-section {
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  .circle-section h3 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .circle-sectioncontainer .circle-section img {
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 20px;
+  }
+
+  .circle-illustration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .partner-section .partner-logos {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .footer {
+    padding-left: 10px;
+    height: 300px;
+    background-color: rgb(14, 14, 92);
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 20px; /* Space between cards */
+    padding: 20px;
+    max-width: 800px; /* Optional: Limit width */
+    margin: auto; /* Center the grid */
+  }
+
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+
+  p {
+    color: #555;
+    margin: 10px 0;
+  }
+
+  h2 {
+    margin: 10px 0;
+  }
+
+  .profile-pic {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+  }
+  .footer{
+    display: flex;
+    justify-content: center;
+  }
